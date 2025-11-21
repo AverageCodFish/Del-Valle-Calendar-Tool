@@ -1,0 +1,44 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Day Entry/Editing</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="delCSS.css"> 
+    </head>
+<body>
+    <h1>Here, You Can Make Edits To The School Calender</h1>
+    <main>
+        {% for monthIndex in yearCalendar %}
+            {% set firstDayOfMonth = monthIndex[0] %}
+            {% set lastDayOfMonth = monthIndex[-1] %}
+            <h2>Month: {{ monthIndex[0] }}</h2>
+            
+            <table>
+                <tr>
+                    <th scope="col">Sunday</th>
+                    <th scope="col">Monday</th>
+                    <th scope="col">Tuesday</th>
+                    <th scope="col">Wednesday</th>
+                    <th scope="col">Thursday</th>
+                    <th scope="col">Friday</th>
+                    <th scope="col">Saturday</th>
+                </tr>
+                <tbody>
+                    <tr>
+                    {% for weekday in range(0, firstDayOfMonth.weekday()) %}
+                        <td></td>
+                    {% endfor %}
+                    {% for weekday in range(0, 7-firstDayOfMonth.weekday()) %}
+                        <td>monthIndex[weekday]</td>
+                    {% endfor %}
+                    </tr>
+                    
+                </tbody>
+            </table>
+        {% endfor %}
+        <a href="/">Go Back</a>
+    </main>

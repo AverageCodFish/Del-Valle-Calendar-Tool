@@ -1,0 +1,49 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Day Entry/Editing</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="delCSS.css"> 
+    </head>
+<body>
+    <h1>Here, You Can Make Edits To The School Calender</h1>
+    <main>
+        <?php
+    {% set ns = namespace(prevMonth=0, colNum=1, rowNum=1, firstDayOfMonth=0) %}
+            
+            {% for row in yearCalendar %}
+                {% if ns.prevMonth|int != row.school_date.month|int %}
+                    {% set ns.prevMonth = row.school_date.month|int %}
+                    {% set ns.firstDayOfMonth = 1 + row.school_date.weekday() %}
+                    <h2>{{ row.school_date.month }} {{ ns.prevMonth }}</h2>
+                    <table>
+                {% endif %}
+                {% if (ns.colNum == 1) %}
+                    <tr>
+                {% endif %}
+                {% if ns.rowNum == 1 and ns.firstDayOfMonth < ns.colNum %}
+                    <td></td>
+                {% else %}
+                    <td>
+                        <div class="date-entry">
+                            <span class="date-label">{{ row.school_date.day }} ({{ row.day_of_week }})</span>
+                        </div>
+                    </td>
+                    {% set ns.colNum = ns.colNum + 1 %}
+                {% endif %}
+                    {% if ns.colNum > 7 %}
+                        {% set ns.colNum = 1 %}
+                        {% set ns.rowNum = ns.rowNum + 1 %}
+                        </tr>
+                    {% endif %}
+        {% endfor %}
+        ?>
+
+        </table>
+
+        <a href="/">Go Back</a>
+    </main>

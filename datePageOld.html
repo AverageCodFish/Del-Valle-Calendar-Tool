@@ -1,0 +1,82 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Day Entry/Editing</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="delCSS.css"> 
+    </head>
+<body>
+    <h1>Here, You Can Make Edits To The School Calender</h1>
+    <main>
+
+        <h2 id="month-title">{{ month }}/{{ year }}</h2>
+        <button id="prev-btn">Previous</button>
+        <button id="next-btn">Next</button>
+
+        <table id="calendar-table">
+            <tbody>
+            {% for week in calendar %}
+            <tr>
+                {% for day in week %}
+                <td>{{ day.day }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+
+        <script>
+            let currentYear = year ;
+            let currentMonth = month ;
+
+            function loadMonth(year, month) {
+                $.ajax({
+                    url: `/get_month/${year}/${month}`,
+                    type: 'GET',
+                    success: function(response) {
+                        const calendar = response.calendar;
+                        const tbody = $('#calendar-table tbody');
+                        tbody.empty();
+
+                        calendar.forEach(week => {
+                            let row = '<tr>';
+                            week.forEach(day => {
+                            const d = new Date(day);
+                            row += `<td>${d.getDate()}</td>`;
+                            });
+                            row += '</tr>';
+                            tbody.append(row);
+                        });
+
+                        $('#month-title').text(`${month}/${year}`);
+                    }
+                });
+            }
+
+            $('#prev-btn').click(function() {
+                currentMonth -= 1;
+                if (currentMonth < 1) {
+                    currentMonth = 12;
+                    currentYear -= 1;
+                }
+                loadMonth(currentYear, currentMonth);
+            });
+
+            $('#next-btn').click(function() {
+                currentMonth += 1;
+                if (currentMonth > 12) {
+                    currentMonth = 1;
+                    currentYear += 1;
+                }
+                loadMonth(currentYear, currentMonth);
+            });
+    </script>
+        </div>
+
+
+        <a href="/">Go Back</a>
+    </main>

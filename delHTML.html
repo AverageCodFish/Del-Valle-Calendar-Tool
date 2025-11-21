@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Del Valle Calendar Tool</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/delCSS.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script>
+    $(function() {
+        $("#datePicker").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            dateFormat: "yy-mm-dd",
+            onSelect: function(dateText, inst) {
+                var currentDate = $("#datePicker").datepicker("getDate");
+                if (!currentDate) return;   
+            }
+        });
+    });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Del Valle Calendar Tool</h1>
+    
+        <!-- Date picker widget -->
+        <p>Date: <input type="text" name="pickedDate" id="datePicker"/></p>
+        <p>Days: <input type="text" name="pickedDays" id="daysPicker"/></p>
+        <p><input type="radio" name="calendarOrSchoolDays" id="calendarDays" value="1"/><label for="calendarDays"> Calendar Days</label></p>
+        <p><input type="radio" name="calendarOrSchoolDays" id="schoolDays" value="2"/><label for="schoolDays"> School Days</label></p>
+
+        <button id="submitBtn">Submit</button>
+    
+
+        <script>
+            $(document).ready(function() {
+                $('#submitBtn').click(function(){
+                    const userDate = $('#datePicker').val();
+                    const userDays = $('#daysPicker').val();
+                    const calendarOrSchoolDays = $('input[name="calendarOrSchoolDays"]:checked').val();
+
+                    $.ajax({
+                        url: 'on_submit',
+                        type: 'POST',
+                        data: { userDate: userDate, userDays: userDays, calendarOrSchoolDays: calendarOrSchoolDays },
+                        success: function(response) {
+                            console.log(response);
+                            $('#result').text(response.result);
+                        },
+                        error: function(error) {
+                            $('#result').text('Error: could not retrieve data');
+                        }
+                    });
+                });
+            });
+        </script>
+
+        <p><strong>Result:</strong> <span id="result"></span></p>
+
+        <main>
+            <div class="box">
+                <p>This tool outputs the date that is 45 school days away!</p>
+            </div>
+            <div class="box">
+                <button onclick="location.href='/datePage'">Edit School Days</button>
+        </main>
+            <footer>
+                <p>&copy; 2025 - 2026 Del Valle Calendar Tool</p>
+            </footer>
+        </div>
+</body>
+</html>
