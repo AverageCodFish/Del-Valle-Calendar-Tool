@@ -1,0 +1,1222 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2025 18:50:21] "[36mGET / HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2025 18:50:21] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2025 18:50:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2025 18:50:27] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2025 18:50:41] "POST /on_submit HTTP/1.1" 200 -
+ERROR:__main__:Database query error: 1525 (HY000): Incorrect DATE value: '2025-10-200'
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2025 18:50:50] "[35m[1mPOST /on_submit HTTP/1.1[0m" 500 -
+ERROR:__main__:Database query error: 1525 (HY000): Incorrect DATE value: '2025-10-200'
+INFO:werkzeug:127.0.0.1 - - [27/Oct/2025 18:50:53] "[35m[1mPOST /on_submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:07:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:07:12] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:07:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:07:20] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:25:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:25:56] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:26:03] "[33mGET /date_page HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:27:13] "[36mGET / HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:27:13] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:27:16] "[33mGET /date_page HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:27:18] "[36mGET / HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:27:18] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:27:19] "[36mGET / HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:27:19] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:27:43] "[33mGET /date_page HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:27:45] "[33mGET /date_page HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:27:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:27:48] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:27:54] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:27:58] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:28:22] "[36mGET / HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:28:22] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:28:25] "[36mGET /datePage HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:28:26] "[36mGET / HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:28:26] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:28:27] "[36mGET /datePage HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:28:47] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:28:47] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:29:15] "[36mGET /datePage HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:29:15] "GET /delCSS.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:35:16] "[36mGET /datePage HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:35:16] "GET /delCSS.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:35:20] "[36mGET /datePage HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:35:20] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:35:28] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 02:35:28] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aaron\\Del Valle Calendar\\delBackend.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 03:04:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 03:04:00] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 03:04:08] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 15:56:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 15:56:17] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 15:56:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 15:56:23] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 15:56:23] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:08:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:08:04] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:08:08] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:08:08] "GET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:08:08] "GET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:08:08] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=EzPLD6nJwrowLaOvSFqn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:08:08] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:09:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:09:40] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:09:41] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:09:42] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:09:42] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:09:42] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=xD08ZRCNAQfQcIDH3aRC HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:11:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:11:58] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:12:00] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:12:00] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:12:00] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:12:00] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=nqob2eKh724TRMloVrmg HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:13:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:13:17] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:13:18] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:13:18] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:18:10] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:18:10] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:18:10] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:18:10] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=wG1GWjsacYNQ4ZmBSdNt HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:18:10] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:19:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:19:36] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:19:40] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:19:40] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:21:37] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:21:37] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:21:37] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:21:37] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=dwYvOlfvMRqq8DNrtGhG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:21:37] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:21:51] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:21:51] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aaron\\Del Valle Calendar\\delBackend.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:33:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:33:04] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:33:07] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:33:07] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:42:10] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:42:10] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:44:18] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:44:18] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:44:50] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:44:50] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:45:29] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:45:29] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:45:37] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:45:37] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:45:40] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 16:45:40] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aaron\\Del Valle Calendar\\delBackend.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug: * Detected change in 'C:\\Users\\aaron\\Del Valle Calendar\\delBackend.py', reloading
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:23:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:23:36] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:23:38] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:23:38] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:23:38] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:23:38] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=XeSAf0opxedrhh0AkDbY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:23:38] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:25:02] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:25:02] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:25:02] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:25:02] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=XeSAf0opxedrhh0AkDbY HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:25:02] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:25:18] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:25:18] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:26:45] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:26:45] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:27:31] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:27:31] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:29:27] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:29:27] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:30:07] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:30:07] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:30:39] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:30:39] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:34:38] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:34:38] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:34:38] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:34:38] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=XeSAf0opxedrhh0AkDbY HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:34:38] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:34:55] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:34:55] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:35:56] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:35:56] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:36:57] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:36:57] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:38:42] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:38:42] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:38:42] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:38:42] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=XeSAf0opxedrhh0AkDbY HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:38:42] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:39:03] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:39:03] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:39:03] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:39:03] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=XeSAf0opxedrhh0AkDbY HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:39:03] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:39:50] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:39:50] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:37] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:37] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:37] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:37] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:38] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:38] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:40] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:40] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:40] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:40] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:41] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:41] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:41] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:41] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:42] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:42] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:42] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:42] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:43] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:43] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:43] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:43] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:43] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:43] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:44] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:44] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:44] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:44] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:45] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:40:45] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:41:17] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:41:17] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:41:17] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:41:17] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=XeSAf0opxedrhh0AkDbY HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:41:17] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:48:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:48:34] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:48:38] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:48:38] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:48:38] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:48:38] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=MfGnvMsRZ6qDazZntFcP HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:49:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:49:49] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:49:51] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:49:51] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:49:51] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:49:51] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=v4OJoCV0ZtgbGmv09RJD HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:53:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:53:47] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:53:48] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:53:48] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:53:48] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:53:48] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=6LlXGYnUgbFi0XM8j3mu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:54:27] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:54:27] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:54:27] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:54:27] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=6LlXGYnUgbFi0XM8j3mu HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:54:27] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:54:29] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:54:29] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:54:29] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:54:29] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=6LlXGYnUgbFi0XM8j3mu HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:54:29] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:54:49] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:54:49] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:54:49] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:54:49] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=6LlXGYnUgbFi0XM8j3mu HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:54:49] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:55:09] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:55:09] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:55:09] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:55:09] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=6LlXGYnUgbFi0XM8j3mu HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:55:09] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:55:25] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:55:25] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:55:25] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:55:25] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=6LlXGYnUgbFi0XM8j3mu HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 17:55:25] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:09:33] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:09:33] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:10:11] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:10:11] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:12:40] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:12:40] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:12:40] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:12:40] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=6LlXGYnUgbFi0XM8j3mu HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:12:40] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:13:02] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:13:02] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:13:52] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:13:52] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:14:11] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:14:11] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:15:38] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:15:38] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:16:31] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:16:31] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:16:42] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:16:42] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:19:08] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:19:08] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:19:44] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:19:44] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:20:05] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Nov/2025 18:20:05] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-091-245
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2025 16:55:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2025 16:55:42] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2025 16:55:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2025 16:56:05] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2025 16:56:05] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-091-245
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:37:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:37:29] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:37:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:37:34] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:37:34] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:37:34] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:37:34] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=0NRUvD84DEdKOfj9gTUg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:37:34] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aaron\\Del Valle Calendar\\DelBackend.py', reloading
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-091-245
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:38:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:38:34] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:38:35] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:38:36] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:38:36] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:38:36] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=zCOkuRfLwS0FRHQ250pw HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:42:23] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:42:23] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:42:23] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:42:23] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=zCOkuRfLwS0FRHQ250pw HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:42:23] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:42:27] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:42:27] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:42:27] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:42:27] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=zCOkuRfLwS0FRHQ250pw HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:42:27] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-091-245
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:45:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:45:26] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:45:31] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:45:31] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:45:31] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:45:31] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=umKuxUGS7erZsoVrjaUx HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:48:31] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 02:48:31] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 03:05:03] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 03:05:03] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-091-245
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 14:08:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 14:08:11] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 14:08:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 14:08:16] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 14:08:16] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 14:08:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 14:08:52] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 14:08:54] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 14:08:54] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-091-245
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:00:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:00:17] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:00:23] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:00:23] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:05:19] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:05:19] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:05:19] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:05:19] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=36Wwi6c87uAABnfnMgVq HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:05:19] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:05:55] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:05:55] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:05:55] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:05:55] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=36Wwi6c87uAABnfnMgVq HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:05:55] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:08:51] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:08:51] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:08:51] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:08:51] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=36Wwi6c87uAABnfnMgVq HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:08:51] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:10:18] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:10:18] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:16:02] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:16:02] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:16:02] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:16:02] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=36Wwi6c87uAABnfnMgVq HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:16:02] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:18:44] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:18:44] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:18:44] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:18:44] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=36Wwi6c87uAABnfnMgVq HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:18:44] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:19:23] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:19:23] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:19:23] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:19:23] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=36Wwi6c87uAABnfnMgVq HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:19:23] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:21:25] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:21:25] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:21:25] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:21:25] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=36Wwi6c87uAABnfnMgVq HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:21:25] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:21:27] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:21:27] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:21:27] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:21:27] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=36Wwi6c87uAABnfnMgVq HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:21:27] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:21:44] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:21:44] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:39:42] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:39:42] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:39:42] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:39:42] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=36Wwi6c87uAABnfnMgVq HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:39:42] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:40:07] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:40:07] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:41:22] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:41:22] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:43:57] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:43:57] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:43:58] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:43:58] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:53:31] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:53:31] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:55:59] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:55:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:55:59] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:56:31] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:56:31] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:56:31] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:56:31] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:56:31] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=36Wwi6c87uAABnfnMgVq HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:56:31] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:56:38] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:56:38] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:56:38] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:56:38] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:56:38] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=36Wwi6c87uAABnfnMgVq HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:56:38] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:56:50] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:56:52] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:56:52] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:56:52] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:56:52] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:56:53] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=36Wwi6c87uAABnfnMgVq HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:58:37] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:58:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:58:37] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:58:37] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:58:37] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=36Wwi6c87uAABnfnMgVq HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 16:58:37] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:00:04] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:00:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:00:04] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:03:01] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:03:01] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:03:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:05:11] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:05:11] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:05:11] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:05:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:05:11] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=36Wwi6c87uAABnfnMgVq HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:05:11] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:05:43] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:05:43] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:05:43] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:05:43] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:05:43] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=36Wwi6c87uAABnfnMgVq HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:05:43] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:05:54] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:05:54] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:05:54] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-091-245
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:21:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:21:49] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:21:52] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:21:52] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:21:52] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:21:52] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=99Vp3ouZolAeYOkxoVft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:21:52] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:23:45] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:23:45] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:24:00] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:24:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:31:48] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:31:48] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:31:48] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:34:11] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:34:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:34:11] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:42:13] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:42:13] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:42:13] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aaron\\Del Valle Calendar\\delBackend.py', reloading
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-091-245
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:44:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:44:17] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:44:22] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:44:22] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:44:23] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:44:23] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Nov/2025 17:44:23] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-091-245
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 17:48:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 17:48:27] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 17:48:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:__main__:Database query error: 1054 (42S22): Unknown column 'shcool_date' in 'field list'
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 17:48:30] "[35m[1mPOST /on_submit HTTP/1.1[0m" 500 -
+ERROR:__main__:Database query error: 1054 (42S22): Unknown column 'shcool_date' in 'field list'
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 17:48:33] "[35m[1mPOST /on_submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 17:48:36] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 17:48:36] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-091-245
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:30:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:30:07] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 1, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 2, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 3, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 4, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 5, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 6, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 7, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 8, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 9, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 10, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 11, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 12, ORDER BY school_date' at line 1
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:30:12] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:30:12] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:30:12] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:30:12] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=jnXNYP42xJkKZUdy8EWF HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:30:12] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 1, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 2, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 3, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 4, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 5, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 6, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 7, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 8, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 9, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 10, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 11, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 12, ORDER BY school_date' at line 1
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:30:43] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:30:43] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:30:43] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:30:43] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=jnXNYP42xJkKZUdy8EWF HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:30:43] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 1, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 2, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 3, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 4, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 5, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 6, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 7, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 8, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 9, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 10, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 11, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 12, ORDER BY school_date' at line 1
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:32:33] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:32:33] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:32:33] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:32:33] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=jnXNYP42xJkKZUdy8EWF HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:32:33] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 1, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 2, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 3, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 4, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 5, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 6, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 7, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 8, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 9, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 10, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 11, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 12, ORDER BY school_date' at line 1
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:33:29] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:33:29] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:33:29] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:33:29] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=jnXNYP42xJkKZUdy8EWF HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:33:29] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 1, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 2, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 3, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 4, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 5, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 6, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 7, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 8, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 9, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 10, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 11, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 12, ORDER BY school_date' at line 1
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:34:26] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:34:26] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:34:26] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:34:26] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=jnXNYP42xJkKZUdy8EWF HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:34:26] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 1, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 2, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 3, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 4, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 5, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 6, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 7, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 8, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 9, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 10, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 11, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 12, ORDER BY school_date' at line 1
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:37:40] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:37:40] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:37:40] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:37:40] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=jnXNYP42xJkKZUdy8EWF HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:37:40] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-091-245
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:38:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:38:27] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 1, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 2, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 3, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 4, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 5, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 6, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 7, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 8, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 9, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 10, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 11, ORDER BY school_date' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025, month = 12, ORDER BY school_date' at line 1
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:38:29] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:38:29] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:38:29] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:38:29] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=FGw3a90rTd4jZT5locJq HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-091-245
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:43:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:43:20] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025 AND MONTH(school_date) = 1, ORDER BY scho' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025 AND MONTH(school_date) = 2, ORDER BY scho' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025 AND MONTH(school_date) = 3, ORDER BY scho' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025 AND MONTH(school_date) = 4, ORDER BY scho' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025 AND MONTH(school_date) = 5, ORDER BY scho' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025 AND MONTH(school_date) = 6, ORDER BY scho' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025 AND MONTH(school_date) = 7, ORDER BY scho' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025 AND MONTH(school_date) = 8, ORDER BY scho' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025 AND MONTH(school_date) = 9, ORDER BY scho' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025 AND MONTH(school_date) = 10, ORDER BY sch' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025 AND MONTH(school_date) = 11, ORDER BY sch' at line 1
+ERROR:__main__:Database query error: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'From calendar WHERE school_year = 2025 AND MONTH(school_date) = 12, ORDER BY sch' at line 1
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:43:22] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:43:22] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:43:22] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:43:22] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=RsDU1ygithzebDahcAC8 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aaron\\Del Valle Calendar\\delBackend.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-091-245
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-091-245
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:47:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:47:04] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:47:08] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:47:08] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 116-091-245
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:49:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:49:34] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:49:39] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:49:39] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:51:45] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:51:45] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+ERROR:__main__:Database query error: 1054 (42S22): Unknown column 'shcool_date' in 'field list'
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:54:35] "[35m[1mPOST /on_submit HTTP/1.1[0m" 500 -
+ERROR:__main__:Database query error: 1054 (42S22): Unknown column 'shcool_date' in 'field list'
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:54:44] "[35m[1mPOST /on_submit HTTP/1.1[0m" 500 -
+ERROR:__main__:Database query error: 1054 (42S22): Unknown column 'shcool_date' in 'field list'
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:54:46] "[35m[1mPOST /on_submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:55:09] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2025 18:55:09] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 15:54:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 15:54:53] "GET /delCSS.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 15:54:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:05:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:05:33] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:06:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:06:02] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:09:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:09:59] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:10:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:10:28] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:31:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:31:43] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+ERROR:__main__:Database query error: 1054 (42S22): Unknown column 'shcool_date' in 'field list'
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:32:14] "[35m[1mPOST /on_submit HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aaron\\Del Valle Calendar\\DelBackend.py', reloading
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:33:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:33:42] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+ERROR:__main__:Database query error: 1054 (42S22): Unknown column 'date' in 'where clause'
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:34:05] "[35m[1mPOST /on_submit HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\aaron\\Del Valle Calendar\\delBackend.py', reloading
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:35:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:35:01] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+ERROR:__main__:Database query error: 1054 (42S22): Unknown column 'date' in 'where clause'
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:35:11] "[35m[1mPOST /on_submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:38:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:38:18] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+ERROR:__main__:Database query error: 1054 (42S22): Unknown column 'date' in 'where clause'
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:38:36] "[35m[1mPOST /on_submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:40:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:40:52] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:41:34] "[35m[1mPOST /on_submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:42:15] "[35m[1mPOST /on_submit HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:42:52] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:43:20] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:56:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:56:25] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:56:48] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:57:06] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:57:15] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:57:17] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:57:18] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:57:19] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:57:21] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:57:22] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:57:24] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:57:26] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:57:27] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:57:29] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:57:31] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:57:32] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:57:33] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Nov/2025 16:57:35] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2025 14:09:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2025 14:09:57] "GET /delCSS.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2025 14:09:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2025 14:12:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2025 14:12:27] "GET /delCSS.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2025 14:13:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2025 14:13:35] "GET /delCSS.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2025 14:41:39] "POST /on_submit HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 15:21:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 15:21:30] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 15:21:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 15:21:33] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 15:21:33] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 16:33:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 16:33:17] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 16:33:19] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 16:33:19] "GET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 16:33:19] "GET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 16:33:19] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=P9yVxUnwp2YIdUgLAIFY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 16:33:19] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 16:40:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 16:40:57] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 16:41:00] "GET /datePage HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 16:41:00] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 17:43:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 17:43:51] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 17:43:55] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 17:43:55] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 17:43:55] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 17:43:55] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=4qltV2tyauXuL6WsKVGn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 17:43:55] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 17:44:31] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 17:44:31] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 17:44:31] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 17:44:31] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=4qltV2tyauXuL6WsKVGn HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 17:44:31] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:25:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:25:53] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:25:57] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:25:57] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:25:57] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:25:57] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=nAuZmGqro5uQSnI1wOBD HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:28:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:28:06] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:28:08] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:28:08] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:28:08] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:28:08] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=m2OdOOizKlqNnq4TLCYx HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:29:25] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:29:25] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:29:25] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:29:25] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=m2OdOOizKlqNnq4TLCYx HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:29:25] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:29:35] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:29:35] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:29:35] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:29:35] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=m2OdOOizKlqNnq4TLCYx HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:29:35] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:31:39] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:31:39] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:31:39] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:31:39] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=m2OdOOizKlqNnq4TLCYx HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:31:39] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:32:20] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:32:20] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:32:20] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:32:20] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=m2OdOOizKlqNnq4TLCYx HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:32:20] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:32:54] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:32:54] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:32:54] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:32:54] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=m2OdOOizKlqNnq4TLCYx HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:32:54] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:33:17] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:33:17] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:33:17] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:33:17] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=m2OdOOizKlqNnq4TLCYx HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:33:17] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:33:31] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:33:31] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:33:31] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:33:31] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=m2OdOOizKlqNnq4TLCYx HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:33:31] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:34:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:34:42] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:34:45] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:34:45] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:34:45] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:34:45] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=wsSco4XlNrcuMORQfXj7 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:36:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:36:39] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:36:43] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:36:43] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:36:43] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 18:36:43] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=C2xgsVFeVXAh9TaStLID HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:22:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:22:44] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:22:46] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:22:46] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:22:46] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:22:46] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=4PFv0vj1ZjRJq4bjMYrB HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:27:13] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:27:13] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:27:13] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:27:14] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=4PFv0vj1ZjRJq4bjMYrB HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:27:14] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:27:37] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:27:37] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:27:37] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:27:37] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=4PFv0vj1ZjRJq4bjMYrB HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:27:37] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:28:18] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:28:19] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:28:19] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:28:19] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=4PFv0vj1ZjRJq4bjMYrB HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:28:19] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:28:29] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:28:29] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:28:29] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:28:29] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=4PFv0vj1ZjRJq4bjMYrB HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:29:44] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:29:44] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:29:44] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:29:44] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=4PFv0vj1ZjRJq4bjMYrB HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 19:29:44] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:12] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:12] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:12] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:12] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=4PFv0vj1ZjRJq4bjMYrB HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:12] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:38] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:38] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:38] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:38] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=4PFv0vj1ZjRJq4bjMYrB HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:38] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:54] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:54] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:54] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:54] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=ntQjKYjT27HrdmqDw7tX HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:54] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:55] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:55] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:55] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:55] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=ntQjKYjT27HrdmqDw7tX HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:06:55] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:08:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:08:59] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:09:04] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:09:04] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:09:04] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:09:04] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=ntQjKYjT27HrdmqDw7tX HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:10:12] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:10:12] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:10:12] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:10:12] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=ntQjKYjT27HrdmqDw7tX HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2025 20:10:12] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 19:31:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 19:31:32] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 19:31:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 19:31:35] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 19:31:35] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 19:31:35] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 19:31:35] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=YZbzpYaveuHmFMyGhwzX HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 19:32:49] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 19:32:49] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 19:32:49] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 19:32:49] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=YZbzpYaveuHmFMyGhwzX HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 19:32:49] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 19:57:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 19:57:25] "[36mGET /delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 19:57:27] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 19:57:27] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 19:57:27] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 19:57:27] "GET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=8znLQqZ8RAdnACwow9mL HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:14:45] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:14:45] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:14:45] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:14:45] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=8znLQqZ8RAdnACwow9mL HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:14:45] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:16:18] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:16:19] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:16:19] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:16:19] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=8znLQqZ8RAdnACwow9mL HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:16:19] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:16:21] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:16:21] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:16:21] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:16:21] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=8znLQqZ8RAdnACwow9mL HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:16:21] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:35:02] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:35:02] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:35:02] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:35:02] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=8znLQqZ8RAdnACwow9mL HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:35:02] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:35:07] "[35m[1mGET /datePage HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:35:07] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:35:07] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:35:07] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png&s=8znLQqZ8RAdnACwow9mL HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [18/Nov/2025 20:35:07] "[36mGET /datePage?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug: * Detected change in 'C:\\Users\\aaron\\Del Valle Calendar\\DelBackend.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
