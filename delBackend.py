@@ -5,22 +5,24 @@ import os
 from flask import Flask, send_from_directory, Response, render_template, jsonify, request
 from datetime import timedelta, date
 
+
 logger = logging.getLogger(__name__)
 logging.basicConfig(filename='logs/myLog.log')
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 def create_app():
-    app = Flask(__name__)
+    # Minimal Flask app that serves delHTML.html and delCSS.css from the project root.
+    app = Flask(__name__, static_folder=BASE_DIR, template_folder=BASE_DIR)
+    app.jinja_env.add_extension('jinja2.ext.do')
     return app
 
 app = create_app()
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
 CALENDAR = '1'
 SCHOOL_DAYS = '2'
 
-# Minimal Flask app that serves delHTML.html and delCSS.css from the project root.
-app = Flask(__name__, static_folder=BASE_DIR, template_folder=BASE_DIR)
+
 
 @app.route('/')
 def home():
@@ -28,7 +30,7 @@ def home():
     #return send_from_directory(BASE_DIR, 'delHTML.html')
 
 
-# Get month days from DB, return as list of lists
+# Get month days from DB, return as list of dicts
 def get_month_days(year, month):
     """Return a list of days in month with their bool_day status from the database."""
     db = db_connect()
@@ -38,8 +40,8 @@ def get_month_days(year, month):
     try:
         db_cursor.execute("SELECT school_date, bool_day From calendar WHERE school_year = %s AND MONTH(school_date) = %s ORDER BY school_date;", (year, month))
         rows = db_cursor.fetchall()
-        month_data = [[rows[0], rows[1]] for rows in rows]
-        clean_month = arrange_month_into_weeks(month_data)
+        month_data = [{"school_date": row[0], "bool_day": row[1]} for row in rows]
+        # clean_month = arrange_month_into_weeks(month_data)
     except Exception as e:
         logger.error(f"Database query error: {e}")
     else:
@@ -96,13 +98,32 @@ def get_month(year, month):
     data = [[d.strftime('%Y-%m-%d') for d in week] for week in calendar]
     return jsonify({"calendar": data})
 
+
+# DATE PAGE ROUTE OLD/TESTING AJAX FUNCTIONALITY
+# ----------------------------------------------------------------------------------
+@app.route('/datePageOld.html')
+def date_page_old():
+    yearCalendar = []
+
+    for month in range(1, 11):
+        # adjust month to start from August
+        adjusted_month = (month + 6) % 12 + 1
+
+        yearCalendar.append(get_month_days(2025, adjusted_month))
+
+    return render_template('datePageOld.html', yearCalendar=yearCalendar)
+
+# DATE PAGE ROUTE
+# ----------------------------------------------------------------------------------
 @app.route('/datePage')
 def date_page():
     yearCalendar = []
 
-    for month in range(1, 13):
-        month = (month+6)%13 +1
-        yearCalendar.append(get_month_days(2025, month))
+    for month in range(1, 11):
+        # adjust month to start from August
+        adjusted_month = (month + 6) % 12 + 1
+
+        yearCalendar.append(get_month_days(2025, adjusted_month))
 
 
     return render_template('datePage.html', yearCalendar=yearCalendar)

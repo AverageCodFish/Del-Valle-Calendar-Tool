@@ -13,69 +13,62 @@
     <h1>Here, You Can Make Edits To The School Calender</h1>
     <main>
 
-        <h2 id="month-title">{{ month }}/{{ year }}</h2>
-        <button id="prev-btn">Previous</button>
-        <button id="next-btn">Next</button>
+        <style>
+            table { border-collapse: collapse; }
+            td {
+                width: 50px;
+                height: 50px;
+                text-align: center;
+                border: 1px solid #444;
+                cursor: pointer;
+            }
+            .green { background-color: #7CFF7C; }
+            .red { background-color: #FF7C7C; }
+        </style>
+        <h2>AJAX Color-Coded Toggle Table</h2>
 
-        <table id="calendar-table">
-            <tbody>
-            {% for week in calendar %}
+        <table id="grid">
+            {% for r in range(states|length) %}
             <tr>
-                {% for day in week %}
-                <td>{{ day.day }}</td>
+                {% for c in range(states[r]|length) %}
+                <td class="{{ 'green' if states[r][c] else 'red' }}"
+                    data-row="{{ r }}" data-col="{{ c }}">
+                    {{ "YES" if states[r][c] else "NO" }}
+                </td>
                 {% endfor %}
             </tr>
             {% endfor %}
-            </tbody>
         </table>
 
         <script>
-            let currentYear = year ;
-            let currentMonth = month ;
+            document.addEventListener("DOMContentLoaded", () => {
+                document.querySelectorAll("#grid td").forEach(cell => {
+                    cell.onclick = async () => {
+                        const r = cell.dataset.row;
+                        const c = cell.dataset.col;
 
-            function loadMonth(year, month) {
-                $.ajax({
-                    url: `/get_month/${year}/${month}`,
-                    type: 'GET',
-                    success: function(response) {
-                        const calendar = response.calendar;
-                        const tbody = $('#calendar-table tbody');
-                        tbody.empty();
-
-                        calendar.forEach(week => {
-                            let row = '<tr>';
-                            week.forEach(day => {
-                            const d = new Date(day);
-                            row += `<td>${d.getDate()}</td>`;
-                            });
-                            row += '</tr>';
-                            tbody.append(row);
+                        // Send AJAX request to toggle
+                        const response = await fetch("/toggle", {
+                            method: "POST",
+                            headers: {
+                                "Content-Type": "application/json"
+                            },
+                            body: JSON.stringify({ row: r, col: c })
                         });
 
-                        $('#month-title').text(`${month}/${year}`);
-                    }
+                        const result = await response.json();
+
+                        // Update UI based on new state
+                        const isGreen = result.new_state;
+
+                        cell.classList.remove("green", "red");
+                        cell.classList.add(isGreen ? "green" : "red");
+
+                        cell.textContent = isGreen ? "YES" : "NO";
+                    };
                 });
-            }
-
-            $('#prev-btn').click(function() {
-                currentMonth -= 1;
-                if (currentMonth < 1) {
-                    currentMonth = 12;
-                    currentYear -= 1;
-                }
-                loadMonth(currentYear, currentMonth);
             });
-
-            $('#next-btn').click(function() {
-                currentMonth += 1;
-                if (currentMonth > 12) {
-                    currentMonth = 1;
-                    currentYear += 1;
-                }
-                loadMonth(currentYear, currentMonth);
-            });
-    </script>
-        </div>
+        </script>
 
 
         <a href="/">Go Back</a>

@@ -8,37 +8,72 @@
     <title>School Day Entry/Editing</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="delCSS.css"> 
-    </head>
+</head>
+
 <body>
-    <h1>Here, You Can Make Edits To The School Calender</h1>
+    <h1>Here, You Can Make Edits <br>To The School Calender</h1>
     <main>
+        
+        <div class="jokeHeader">
+            <p>Working buttons coming soon!</p>
+        </div>
+
+        <div class="instructionHeader">
+            <p>Click On A Date To Toggle</p>
+        </div>   
+
         {% for monthIndex in yearCalendar %}
+            {# {% set ns = namespace(mutableMonth=list(monthIndex)) %} #}
             {% set firstDayOfMonth = monthIndex[0] %}
             {% set lastDayOfMonth = monthIndex[-1] %}
-            <h2>Month: {{ monthIndex[0] }}</h2>
+            {% set daysOffset = (firstDayOfMonth['school_date'].weekday()+1)%7 %}
+            
+            
+            <!-- month offset logic -->
+            {# {% for i in range(1, daysOffset) %}
+                {% do ns.mutableMonth.insert(0, {'school_date': '', 'bool_day': None}) %}
+            {% endfor %} #}
+
+            <div class="monthHeader">{{ firstDayOfMonth['school_date'].strftime('%B, %Y') }}</div>
             
             <table>
                 <tr>
-                    <th scope="col">Sunday</th>
-                    <th scope="col">Monday</th>
-                    <th scope="col">Tuesday</th>
-                    <th scope="col">Wednesday</th>
-                    <th scope="col">Thursday</th>
-                    <th scope="col">Friday</th>
-                    <th scope="col">Saturday</th>
+                    <th scope="col">Sun</th>
+                    <th scope="col">Mon</th>
+                    <th scope="col">Tues</th>
+                    <th scope="col">Wed</th>
+                    <th scope="col">Thu</th>
+                    <th scope="col">Fri</th>
+                    <th scope="col">Sat</th>
                 </tr>
-                <tbody>
-                    <tr>
-                    {% for weekday in range(0, firstDayOfMonth.weekday()) %}
-                        <td></td>
-                    {% endfor %}
-                    {% for weekday in range(0, 7-firstDayOfMonth.weekday()) %}
-                        <td>monthIndex[weekday]</td>
-                    {% endfor %}
-                    </tr>
+                
+
+                <tr>
+                {% for day in monthIndex %}
+                    {% if loop.first %}
+                    <!--contains offset logic, might edit-->
+                        {% for emptyCell in range((day['school_date'].weekday()+1)%7) %}      
+                            <td></td>
+                        {% endfor %}
+                    {% endif %}
+                    <!--contains offset logic, might edit-->
+                    {% if (day['school_date'].weekday()+1)%7 == 0 and not loop.first %}
+                        </tr><tr>
+                    {% endif %}
+                    <td class = "{{ 'green' if day['bool_day'] else ('red' if day['bool_day'] is not none else '') }}">
+                        {{ day['school_date'].strftime('%d') }}
+                    </td>
+                {% endfor %}
+                {% for emptyCell in range((lastDayOfMonth['school_date'].weekday()+1)%7, 6) %}
+                    <td></td>
+                {% endfor %}
+                </tr>
                     
-                </tbody>
+                
             </table>
         {% endfor %}
-        <a href="/">Go Back</a>
     </main>
+    <div>
+        <a href="/">Go Back</a>
+    </div>
+</body>
