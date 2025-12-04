@@ -46,49 +46,6 @@ def get_month_days(year, month):
         logger.error(f"Database query error: {e}")
     else:
         return month_data
-
-# NOT WORKING YET
-def arrange_month_into_weeks(month_data):
-    """Arrange month data into weeks for calendar display."""
-    weeks = []
-    week = []
-    first_day_of_month = month_data[0][0]
-    start_weekday = first_day_of_month.weekday()  # Monday is 0, Sunday is 6
-
-    # Fill initial empty days
-    for _ in range(start_weekday):
-        week.append(None)
-
-    for day in month_data:
-        week.append(day)
-        if len(week) == 7:
-            weeks.append(week)
-            week = []
-
-    # Fill remaining days in the last week
-    while len(week) < 7:
-        week.append(None)
-    weeks.append(week)
-
-    for w in weeks:
-        print(w)
-
-
-
-def get_year_calendar():
-    db = db_connect()
-    db_cursor = create_cursor(db)
-
-    try:
-        db_cursor.execute("SELECT school_date, bool_day, day_of_week FROM calendar WHERE school_year = 2025 ORDER BY school_date;")
-        rows = db_cursor.fetchall()
-        calendar_data = [{"school_date": row[0], "bool_day": row[1], "day_of_week": row[2]} for row in rows]
-
-    except Exception as e:
-        logger.error(f"Database query error: {e}")
-
-    else:
-        return calendar_data
         
 
 @app.route('/get_month/<int:year>/<int:month>')
