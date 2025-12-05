@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Del Valle Calendar Tool</title>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/delCSS.css">
+    <link rel="stylesheet" href="delCSS.css">
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
     <script>
@@ -29,9 +29,9 @@
         <!-- Date picker widget -->
         <p>Date: <input type="text" name="pickedDate" id="datePicker"/></p>
         <p>Days: <input type="text" name="pickedDays" id="daysPicker"/></p>
-        <p><input type="radio" name="calendarOrSchoolDays" id="calendarDays" value="1"/><label for="calendarDays"> Calendar Days</label></p>
         <p><input type="radio" name="calendarOrSchoolDays" id="schoolDays" value="2"/><label for="schoolDays"> School Days</label></p>
-
+        <p><input type="radio" name="calendarOrSchoolDays" id="calendarDays" value="1"/><label for="calendarDays"> Calendar Days</label></p>
+        
         <button id="submitBtn">Submit</button>
     
 
@@ -65,11 +65,15 @@
                 <p>This tool outputs the date that is 45 school days away!</p>
             </div>
             <div class="box">
-                <button onclick="location.href='/datePage'">Edit School Days</button>
+                <form action="{{ url_for('date_page')}}" method = "POST">
+                    <button type="submit">Edit School Days</button>
+                </form>
+                
+            </div>
         </main>
             <footer>
                 <p>&copy; 2025 - 2026 Del Valle Calendar Tool</p>
             </footer>
-        </div>
+    </div>
 </body>
 </html>

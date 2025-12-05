@@ -72,7 +72,7 @@ def date_page_old():
 
 # DATE PAGE ROUTE
 # ----------------------------------------------------------------------------------
-@app.route('/datePage')
+@app.route('/datePage', methods=['POST'])
 def date_page():
     yearCalendar = []
 
@@ -135,7 +135,6 @@ def create_cursor(conn):
         sys.exit(1)
     return cursor
 
-get_month_days(2025, 11)
     
 @app.route('/on_submit', methods=['POST'])
 def on_submit():
