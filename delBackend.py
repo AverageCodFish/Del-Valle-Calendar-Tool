@@ -113,10 +113,10 @@ def get_date():
 def db_connect():
     try:
         conn = mysql.connector.connect(
-            host="127.0.0.1",
-            user="root",
-            passwd="Guitarist0810$",
-            db="dellvallecalendar")
+            host=os.getenv("DB_HOST"), 
+            user=os.getenv("DB_USER"),
+            passwd=os.getenv("DB_PASSWORD"),
+            db= os.getenv("DB_NAME"))
     except mysql.connector.Error as err:
         print(f"Failed to connect to database: {err}")
         logger.error(f"Database connection error: {err}")
