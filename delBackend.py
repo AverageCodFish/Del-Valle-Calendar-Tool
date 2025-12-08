@@ -5,11 +5,15 @@ import os
 from flask import Flask, send_from_directory, Response, render_template, jsonify, request
 from datetime import timedelta, date
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+from dotenv import load_dotenv
+load_dotenv(os.path.join(BASE_DIR, ".env"))
+
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(filename='logs/myLog.log')
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 
 def create_app():
     # Minimal Flask app that serves delHTML.html and delCSS.css from the project root.
@@ -21,7 +25,6 @@ app = create_app()
 
 CALENDAR = '1'
 SCHOOL_DAYS = '2'
-
 
 
 @app.route('/')
@@ -112,11 +115,15 @@ def get_date():
 
 def db_connect():
     try:
+        db_user = os.getenv("DB_USER")
+        db_password = os.getenv("DB_PASSWORD")
+        db_host = os.getenv("DB_HOST")
+        db_name = os.getenv("DB_NAME")
         conn = mysql.connector.connect(
-            host=os.getenv("DB_HOST"), 
-            user=os.getenv("DB_USER"),
-            passwd=os.getenv("DB_PASSWORD"),
-            db= os.getenv("DB_NAME"))
+            host=db_host, 
+            user=db_user,
+            passwd=db_password,
+            db=db_name)
     except mysql.connector.Error as err:
         print(f"Failed to connect to database: {err}")
         logger.error(f"Database connection error: {err}")
@@ -181,7 +188,7 @@ def on_submit():
         except Exception:
             logger.error("Error closing database connection")
 
-    return jsonify(result=row[0].strftime("%Y-%m-%d") if row else "No result found")
+    return jsonify(result=row[0].strftime("%m/%d/%Y") if row else "No result found")
 
 # Query to fetch the 45th available day after the provided date
 # db_cursor.execute("WITH NumberedSubset AS (SELECT date, ROW_NUMBER() OVER (ORDER BY date ASC) AS RowNum FROM calendar WHERE date > '2025-10-12' AND bool_day = 1) SELECT date FROM NumberedSubset WHERE RowNum = 45;")
