@@ -5,9 +5,11 @@ import os
 from flask import Flask, send_from_directory, Response, render_template, jsonify, request
 from datetime import timedelta, date
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-from dotenv import load_dotenv
-load_dotenv(os.path.join(BASE_DIR, ".env"))
+from config import Config
+
+# BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# from dotenv import load_dotenv
+# load_dotenv(os.path.join(BASE_DIR, ".env"))
 
 
 logger = logging.getLogger(__name__)
@@ -17,7 +19,9 @@ logging.basicConfig(filename='logs/myLog.log')
 
 def create_app():
     # Minimal Flask app that serves delHTML.html and delCSS.css from the project root.
-    app = Flask(__name__, static_folder=BASE_DIR, template_folder=BASE_DIR)
+    #app = Flask(__name__, static_folder=BASE_DIR, template_folder=BASE_DIR)
+    app = Flask(__name__)
+    app.config.from_object(Config)
     app.jinja_env.add_extension('jinja2.ext.do')
     return app
 
@@ -101,11 +105,21 @@ def date_page():
     # return render_template('datePage.html', today=today, date_range=date_range)
     #return send_from_directory(BASE_DIR, 'datePage.html')
 
+
+
+# REMOVE AFTER TESTING-----------------------------------
+# @app.route('/delCSS.css')
+# def css():
+#     css_path = os.path.join(BASE_DIR, 'delCSS.css')
+#     if os.path.exists(css_path):
+#         return send_from_directory(BASE_DIR, 'delCSS.css', mimetype='text/css')
+#     return Response('', status=204)
+
 @app.route('/delCSS.css')
 def css():
-    css_path = os.path.join(BASE_DIR, 'delCSS.css')
-    if os.path.exists(css_path):
-        return send_from_directory(BASE_DIR, 'delCSS.css', mimetype='text/css')
+
+    if os.path.exists('static/css/delCSS.css'):
+        return send_from_directory('/static/css', 'delCSS.css', mimetype='text/css')
     return Response('', status=204)
 
 @app.route('/get_date')
@@ -115,15 +129,12 @@ def get_date():
 
 def db_connect():
     try:
-        db_user = os.getenv("DB_USER")
-        db_password = os.getenv("DB_PASSWORD")
-        db_host = os.getenv("DB_HOST")
-        db_name = os.getenv("DB_NAME")
+        
         conn = mysql.connector.connect(
-            host=db_host, 
-            user=db_user,
-            passwd=db_password,
-            db=db_name)
+            host=app.config['DB_HOST'], 
+            user=app.config['DB_USER'],
+            passwd=app.config['DB_PASSWORD'],
+            db=app.config['DB_NAME'])
     except mysql.connector.Error as err:
         print(f"Failed to connect to database: {err}")
         logger.error(f"Database connection error: {err}")
