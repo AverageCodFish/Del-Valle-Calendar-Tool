@@ -1220,3 +1220,49 @@ INFO:werkzeug: * Detected change in 'C:\\Users\\aaron\\Del Valle Calendar\\DelBa
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2025 15:01:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2025 15:01:29] "[36mGET /static/css/delCSS.css HTTP/1.1[0m" 304 -
+ERROR:__main__:Database connection error: 1045 (28000): Access denied for user ''@'localhost' (using password: NO)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2025 16:18:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2025 16:18:41] "[36mGET /static/css/delCSS.css HTTP/1.1[0m" 304 -
+ERROR:__main__:Database connection error: 1045 (28000): Access denied for user ''@'localhost' (using password: NO)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2025 16:19:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2025 16:19:29] "[36mGET /static/css/delCSS.css HTTP/1.1[0m" 304 -
+ERROR:__main__:Database connection error: 1045 (28000): Access denied for user ''@'localhost' (using password: NO)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+ERROR:__main__:Failed to load database configuration: One or more database configuration values are missing
+ERROR:__main__:Failed to load database configuration: Logger.log() missing 1 required positional argument: 'msg'
+ERROR:__main__:Failed to load database configuration: argument of type 'bool' is not iterable
+ERROR:__main__:Failed to load database configuration: argument of type 'bool' is not iterable
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.04.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 890-524-445
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2025 16:53:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2025 16:53:09] "[36mGET /static/css/delCSS.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [08/Dec/2025 16:53:14] "POST /on_submit HTTP/1.1" 200 -

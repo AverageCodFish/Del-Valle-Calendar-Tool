@@ -13,7 +13,7 @@ from config import Config
 
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(filename='logs/myLog.log')
+logging.basicConfig(filename='Del-Valle-Calendar-Tool\logs\myLog.log')
 
 
 
@@ -26,6 +26,24 @@ def create_app():
     return app
 
 app = create_app()
+
+# test config load
+try:
+    db_host = app.config['DB_HOST']
+    db_user = app.config['DB_USER']
+    db_password = app.config['DB_PASSWORD']
+    db_name = app.config['DB_NAME']
+
+    if None in [db_host, db_user, db_password, db_name]:
+        raise ValueError("One or more database configuration values are missing")
+    logger.info("Database configuration loaded successfully")
+except Exception as e:
+    logger.error(f"Failed to load database configuration: {e}")
+    logger.debug("Current app.config contents:")
+    for key in app.config:
+        logger.debug(f"{key}: {app.config[key]}")
+    sys.exit(1)
+
 
 CALENDAR = '1'
 SCHOOL_DAYS = '2'
@@ -131,10 +149,10 @@ def db_connect():
     try:
         
         conn = mysql.connector.connect(
-            host=app.config['DB_HOST'], 
-            user=app.config['DB_USER'],
-            passwd=app.config['DB_PASSWORD'],
-            db=app.config['DB_NAME'])
+            host=db_host, 
+            user=db_user,
+            passwd=db_password,
+            db=db_name)
     except mysql.connector.Error as err:
         print(f"Failed to connect to database: {err}")
         logger.error(f"Database connection error: {err}")

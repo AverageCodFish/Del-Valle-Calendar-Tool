@@ -1,7 +1,9 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()  # loads .env into environment variables
+# load .env file
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+load_dotenv(os.path.join(BASE_DIR, ".env"))
 
 class Config:
     try:
@@ -9,5 +11,7 @@ class Config:
         DB_USER = os.getenv("DB_USER")
         DB_PASSWORD = os.getenv("DB_PASSWORD")
         DB_NAME = os.getenv("DB_NAME")
+        if not all([DB_HOST, DB_USER, DB_PASSWORD, DB_NAME]):
+            raise ValueError("One or more database configuration values are missing")
     except Exception as e:
         raise RuntimeError("Failed to load database configuration from environment variables") from e
