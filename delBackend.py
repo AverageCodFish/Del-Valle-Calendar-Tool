@@ -110,28 +110,7 @@ def date_page():
 
     return render_template('datePage.html', yearCalendar=yearCalendar)
 
-   
-    # calendar = get_year_calendar()
-    # return render_template('datePage.html', calendar=calendar)
 
-    # today = date.today()
-    # year, month = today.year, today.month
-
-    # first_of_month = date(today.year, today.month, 1)
-    # last_of_month = date(today.year, today.month + 1, 1) - timedelta(days=1) if today.month < 12 else date(today.year + 1, 1, 1) - timedelta(days=1)
-    # date_range = [first_of_month + timedelta(days=i) for i in range((last_of_month - first_of_month).days + 1)]
-    # return render_template('datePage.html', today=today, date_range=date_range)
-    #return send_from_directory(BASE_DIR, 'datePage.html')
-
-
-
-# REMOVE AFTER TESTING-----------------------------------
-# @app.route('/delCSS.css')
-# def css():
-#     css_path = os.path.join(BASE_DIR, 'delCSS.css')
-#     if os.path.exists(css_path):
-#         return send_from_directory(BASE_DIR, 'delCSS.css', mimetype='text/css')
-#     return Response('', status=204)
 
 @app.route('/delCSS.css')
 def css():

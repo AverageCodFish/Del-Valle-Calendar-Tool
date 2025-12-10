@@ -58,15 +58,13 @@
             });
         </script>
 
-        <p><strong>Result:</strong> <span id="result"></span></p>
+        <div id="resultBox" class="box">Result:  <span id="result"></span></div>
 
         <main>
-            <div class="box">
-                <p>This tool outputs the date that is 45 school days away!</p>
-            </div>
+            
             <div class="box">
                 <form action="{{ url_for('date_page')}}" method = "POST">
-                    <button type="submit">Edit School Days</button>
+                    <button type="submit">View School Calendar</button>
                 </form>
                 
             </div>

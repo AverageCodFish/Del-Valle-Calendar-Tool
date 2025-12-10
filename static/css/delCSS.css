@@ -108,3 +108,15 @@ tfoot th {
 tfoot td {
   font-weight: bold;
 }
+
+#resultBox {
+  color: red;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 40px;
+  width: 300px;
+  padding-top: 20px;
+  background-color: white;
+  font-weight: 700;
+  font-size: 1.9em;
+}
