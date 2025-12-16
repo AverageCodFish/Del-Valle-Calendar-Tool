@@ -11,7 +11,9 @@ class Config:
         DB_USER = os.getenv("DB_USER")
         DB_PASSWORD = os.getenv("DB_PASSWORD")
         DB_NAME = os.getenv("DB_NAME")
-        if not all([DB_HOST, DB_USER, DB_PASSWORD, DB_NAME]):
+        APP_PASSWORD_HASH = os.getenv("APP_PASSWORD_HASH")
+
+        if not all([DB_HOST, DB_USER, DB_PASSWORD, DB_NAME, APP_PASSWORD_HASH]):
             raise ValueError("One or more database configuration values are missing")
     except Exception as e:
         raise RuntimeError("Failed to load database configuration from environment variables") from e

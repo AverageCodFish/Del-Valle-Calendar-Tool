@@ -10,9 +10,25 @@ h1 {
 	font-size: 2.75rem;
 }
 
-.container {
-	width: 600px;
-	margin:auto;
+.grid-container {
+	width: 900px;
+	margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+.section {
+  padding: 20px
+}
+
+/* li {
+  font-size: 1.15rem;
+  margin-bottom: 20px;
+} */
+
+.boldAndUnderline {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .box {
@@ -75,6 +91,10 @@ caption {
   font-weight: bold;
 }
 
+footer {
+  margin-top: 50px;
+}
+
 thead,
 tfoot {
   background-color: rgb(228 240 245);
@@ -109,14 +129,47 @@ tfoot td {
   font-weight: bold;
 }
 
+#rightSide {
+  padding-top: 140px;
+}
+
 #resultBox {
   color: red;
   margin-top: 20px;
   margin-bottom: 20px;
   height: 40px;
-  width: 300px;
+  width: 375px;
   padding-top: 20px;
   background-color: white;
   font-weight: 700;
   font-size: 1.9em;
+}
+.login-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 6px;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.login-box h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 1rem;
 }

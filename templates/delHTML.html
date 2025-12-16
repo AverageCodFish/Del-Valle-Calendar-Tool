@@ -23,55 +23,82 @@
     </script>
 </head>
 <body>
-    <div class="container">
-        <h1>Del Valle Calendar Tool</h1>
-    
-        <!-- Date picker widget -->
-        <p>Date: <input type="text" name="pickedDate" id="datePicker"/></p>
-        <p>Days: <input type="text" name="pickedDays" id="daysPicker"/></p>
-        <p><input type="radio" name="calendarOrSchoolDays" id="schoolDays" value="2"/><label for="schoolDays"> School Days</label></p>
-        <p><input type="radio" name="calendarOrSchoolDays" id="calendarDays" value="1"/><label for="calendarDays"> Calendar Days</label></p>
+    <div class="grid-container">
+        <div class="section">
+            <h1>Del Valle Calendar Tool</h1>
         
-        <button id="submitBtn">Submit</button>
-    
+            <!-- Date picker widget -->
+            <p>Date: <input type="text" name="pickedDate" id="datePicker"/></p>
+            <p>Days: <input type="text" name="pickedDays" id="daysPicker"/></p>
+            <p><input type="radio" name="calendarOrSchoolDays" id="schoolDays" value="2"/><label for="schoolDays"> School Days</label></p>
+            <p><input type="radio" name="calendarOrSchoolDays" id="calendarDays" value="1"/><label for="calendarDays"> Calendar Days</label></p>
+            
+            <button id="submitBtn">Submit</button>
+        
 
-        <script>
-            $(document).ready(function() {
-                $('#submitBtn').click(function(){
-                    const userDate = $('#datePicker').val();
-                    const userDays = $('#daysPicker').val();
-                    const calendarOrSchoolDays = $('input[name="calendarOrSchoolDays"]:checked').val();
+            <script>
+                $(document).ready(function() {
+                    $('#submitBtn').click(function(){
+                        const userDate = $('#datePicker').val();
+                        const userDays = $('#daysPicker').val();
+                        const calendarOrSchoolDays = $('input[name="calendarOrSchoolDays"]:checked').val();
 
-                    $.ajax({
-                        url: 'on_submit',
-                        type: 'POST',
-                        data: { userDate: userDate, userDays: userDays, calendarOrSchoolDays: calendarOrSchoolDays },
-                        success: function(response) {
-                            console.log(response);
-                            $('#result').text(response.result);
-                        },
-                        error: function(error) {
-                            $('#result').text('Error: could not retrieve data');
-                        }
+                        $.ajax({
+                            url: 'on_submit',
+                            type: 'POST',
+                            data: { userDate: userDate, userDays: userDays, calendarOrSchoolDays: calendarOrSchoolDays },
+                            success: function(response) {
+                                console.log(response);
+                                $('#result').text(response.result);
+                            },
+                            error: function(error) {
+                                $('#result').text('Error: could not retrieve data');
+                            }
+                        });
                     });
                 });
-            });
-        </script>
+            </script>
 
-        <div id="resultBox" class="box">Result:  <span id="result"></span></div>
+            <div id="resultBox" class="box">Due Date:  <span id="result"></span></div>
 
-        <main>
-            
-            <div class="box">
-                <form action="{{ url_for('date_page')}}" method = "POST">
-                    <button type="submit">View School Calendar</button>
-                </form>
+            <main>
                 
+                <div class="box">
+                    <form action="{{ url_for('date_page')}}" method = "POST">
+                        <button type="submit">View School Calendar</button>
+                    </form>
+                    
+                </div>
+            </main>
+                <footer>
+                    <p>If you enjoy using this page, consider making a contribution. Thanks!</p>
+                    <img src="/static/images/venmo_qr_code.png" alt="Venmo QR Code" width="250" height="250">
+                    <p>&copy; 2025 - 2026 Del Valle Calendar Tool</p>
+                </footer>
+        </div>
+
+        <div id="rightSide" class="section">
+            <div class="boldAndUnderline">
+                School Days
+            </div> 
+            <ul>
+                <li>15 School Days - SST due after receipt of parent request for evaluation. Offer Consent or PWN by this date.</li>
+                <li>45 School Days - Special Request Evaluation due.</li>
+            </ul>
+            <div class="boldAndUnderline">
+                Calendar Days
             </div>
-        </main>
-            <footer>
-                <p>&copy; 2025 - 2026 Del Valle Calendar Tool</p>
-            </footer>
+            <ul>
+                <li>20 Calendar Days - District policy due date for Initial ARDs.</li>
+                <li>30 Calendar Days - Legal due date for Initial ARDS. (ALWAYS use Plan Management to calculate this date!)</li>
+                <li>30 Calendar Days - District policy due date for ARD to review Special Request Eval.</li>
+            </ul>
+            <div>
+                <p>The date of the triggering event (e.g., receipt of parent request for evaluation, 
+                    receipt of consent for evaluation, etc.) is Day 0. The day following the triggering even is always Day 1 in the count.</p>
+            </div>
+        </div>
+
     </div>
 </body>
 </html>

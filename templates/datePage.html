@@ -11,7 +11,21 @@
 <body>
     <h1>Del Valle School Calendar</h1>
     <main>
-        
+        {% if mode == 'view' %}
+            <div class="box">
+                <form action="{{url_for('login')}}" method="GET">
+                    <button type="submit">Edit Calendar</button>
+                </form>
+            </div>
+        {% endif %}
+        {% if mode == 'edit' %}
+            <div class="box">
+                <form action="{{url_for('date_page')}}" method="POST">
+                    <button type="submit">View Calendar</button>
+                </form>
+            </div>
+        {% endif %}
+
 
         {% for monthIndex in yearCalendar %}
             {# {% set ns = namespace(mutableMonth=list(monthIndex)) %} #}

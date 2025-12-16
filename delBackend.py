@@ -2,9 +2,9 @@ import logging
 import mysql.connector 
 import sys
 import os
-from flask import Flask, send_from_directory, Response, render_template, jsonify, request
+from flask import Flask, redirect, send_from_directory, Response, render_template, jsonify, request, flash, session
 from datetime import timedelta, date
-
+from werkzeug.security import check_password_hash 
 from config import Config
 
 # BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -33,8 +33,9 @@ try:
     db_user = app.config['DB_USER']
     db_password = app.config['DB_PASSWORD']
     db_name = app.config['DB_NAME']
+    app_password = app.config['APP_PASSWORD_HASH']
 
-    if None in [db_host, db_user, db_password, db_name]:
+    if None in [db_host, db_user, db_password, db_name, app_password]:
         raise ValueError("One or more database configuration values are missing")
     logger.info("Database configuration loaded successfully")
 except Exception as e:
@@ -108,9 +109,36 @@ def date_page():
         yearCalendar.append(get_month_days(2025, adjusted_month))
 
 
-    return render_template('datePage.html', yearCalendar=yearCalendar)
+    return render_template('datePage.html', yearCalendar=yearCalendar, mode='view')
 
+@app.route('/datePage/edit', methods=['GET', 'POST'])
+def edit_date_page():
+    
+    
+    yearCalendar = []
 
+    for month in range(1, 11):
+        # adjust month to start from August
+        adjusted_month = (month + 6) % 12 + 1
+
+        yearCalendar.append(get_month_days(2025, adjusted_month))
+    
+    return render_template('datePage.html', yearCalendar=yearCalendar, mode='edit')
+    
+@app.route('/datePage/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        app.logger.info('User attempting to log in')
+        password = request.form.get('password')
+        if not password.isalnum():
+            return flash('password must be alphanumeric', 'error')
+        if check_password_hash(app_password, password):
+            app.logger.info('User logged in successfully')
+            return redirect('/datePage/edit')
+        else:
+            return flash('Invalid password', 'error')
+    
+    return render_template('login.html')
 
 @app.route('/delCSS.css')
 def css():
