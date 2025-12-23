@@ -2,20 +2,18 @@ import logging
 import mysql.connector 
 import sys
 import os
-from flask import Flask, redirect, send_from_directory, Response, render_template, jsonify, request, flash, session
+from flask import Flask, redirect, send_from_directory, Response, render_template, jsonify, request, flash, session, url_for
+from functools import wraps
 from datetime import timedelta, date
 from werkzeug.security import check_password_hash 
 from config import Config
-
-# BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-# from dotenv import load_dotenv
-# load_dotenv(os.path.join(BASE_DIR, ".env"))
 
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(filename='Del-Valle-Calendar-Tool\logs\myLog.log')
 
-
+def generete_secret_key():
+    return os.urandom(24).hex()
 
 def create_app():
     # Minimal Flask app that serves delHTML.html and delCSS.css from the project root.
@@ -23,6 +21,7 @@ def create_app():
     app = Flask(__name__)
     app.config.from_object(Config)
     app.jinja_env.add_extension('jinja2.ext.do')
+    app.secret_key = generete_secret_key()
     return app
 
 app = create_app()
@@ -73,6 +72,15 @@ def get_month_days(year, month):
     else:
         return month_data
         
+# Authenticate login
+def login_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if not session.get('logged_in'):
+            return redirect(url_for('login'))
+        return f(*args, **kwargs)
+    return decorated_function
+
 
 @app.route('/get_month/<int:year>/<int:month>')
 def get_month(year, month):
@@ -112,6 +120,7 @@ def date_page():
     return render_template('datePage.html', yearCalendar=yearCalendar, mode='view')
 
 @app.route('/datePage/edit', methods=['GET', 'POST'])
+@login_required
 def edit_date_page():
     
     
@@ -127,18 +136,19 @@ def edit_date_page():
     
 @app.route('/datePage/login', methods=['GET', 'POST'])
 def login():
+    error = None
     if request.method == 'POST':
         app.logger.info('User attempting to log in')
         password = request.form.get('password')
         if not password.isalnum():
-            return flash('password must be alphanumeric', 'error')
-        if check_password_hash(app_password, password):
+            error = 'non-alphanumeric entry'
+            flash('password must be alphanumeric')
+        elif check_password_hash(app_password, password):
+            session['logged_in'] = True
             app.logger.info('User logged in successfully')
             return redirect('/datePage/edit')
-        else:
-            return flash('Invalid password', 'error')
-    
-    return render_template('login.html')
+    else:
+        return render_template('login.html', error=error)
 
 @app.route('/delCSS.css')
 def css():
@@ -224,6 +234,7 @@ def on_submit():
         except Exception:
             logger.error("Error closing database connection")
 
+    app.logger.info("")
     return jsonify(result=row[0].strftime("%m/%d/%Y") if row else "No result found")
 
 # Query to fetch the 45th available day after the provided date

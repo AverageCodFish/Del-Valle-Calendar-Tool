@@ -13,7 +13,7 @@
     <main>
         {% if mode == 'view' %}
             <div class="box">
-                <form action="{{url_for('login')}}" method="GET">
+                <form action="{{url_for('edit_date_page')}}" method="GET">
                     <button type="submit">Edit Calendar</button>
                 </form>
             </div>
@@ -65,7 +65,7 @@
                     {% if (day['school_date'].weekday()+1)%7 == 0 and not loop.first %}
                         </tr><tr>
                     {% endif %}
-                    <td class = "{{ 'green' if day['bool_day'] else ('red' if day['bool_day'] is not none else '') }}">
+                    <td class = "{{'calendarDay' if mode == 'edit'}} {{ 'green' if day['bool_day'] else ('red' if day['bool_day'] is not none else '') }}">
                         {{ day['school_date'].strftime('%d') }}
                     </td>
                 {% endfor %}
@@ -77,5 +77,32 @@
                 
             </table>
         {% endfor %}
+        {% if mode == 'edit' %}
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    document.querySelectorAll("td.calendarDay").forEach(cell => {
+                        cell.onclick = async () => {
+                            cell.classList.toggle('active');
+                            updateSelectedDates();
+                        };
+                    });
+                });
+
+                function updateSelectedDates() {
+                    const selectedDates = Array.from(document.querySelectorAll("td.calendarDay.active"))
+                        .map(cell => cell.textContent)
+                        .join(", ");
+                    document.getElementById("SelectedDatesString").textContent = selectedDates;
+                }
+            </script>
+
+            <div class="box fixed" id="SelectedDates">
+                <p>Selected Dates (Click on School Cancelled Day) </p>
+                <p id="SelectedDatesString"></p>
+            </div>
+            <div class="box fixed" id="submitDates">
+                <button onclick="submitSelectedDates()">Submit Selected Dates</button>
+            </div>
+        {% endif %}
     </main>
 </body>
